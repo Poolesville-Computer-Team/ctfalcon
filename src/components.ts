@@ -9,15 +9,15 @@ let navbar_element = document.querySelector('#navbar');
 if (navbar_element != undefined) {
     navbar_element.innerHTML = `
     <div class="sticky flex w-full h-24">
-        <div class="flex-none flex space-x-3 left-2 top-6 absolute">
+        <div class="flex-none flex space-x-3 left-2 top-6 absolute cursor-pointer" onclick="location.href='/'">
             <img src="${icon}" class="w-12 h-12 rounded-md" alt="opps looks like
             image doesn't exist">
             <p class="my-auto">CTFalcon</p>
         </div>
         <div class="m-auto flex space-x-4">
-            <p class="m-auto">Challenges</p>
-            <p class="m-auto">Leaderboard</p>
-            <p class="m-auto">Team</p>
+            <p class="m-auto hover:bg-secondary p-2 rounded-md cursor-pointer" onclick="location.href='/challenges.html'">Challenges</p>
+            <p class="m-auto hover:bg-secondary p-2 rounded-md cursor-pointer" onclick="location.href='/leaderboard.html'">Leaderboard</p>
+            <p class="m-auto hover:bg-secondary p-2 rounded-md cursor-pointer" onclick="location.href='/team-info.html'">Team</p>
         </div>
         <div class="flex-none flex right-2 top-6 absolute">
             <p>2 (trophy icon)</p>
