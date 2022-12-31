@@ -26,7 +26,7 @@ if (navbar_element != undefined) {
                     <p>Polly Placeholder</p>
                     <p class="italic text-sm">@pollytheplayer</p>
                 </div>
-                <img class="w-12 h-12" src="${profile_pic}" alt="ok just pretend theres an amogus here">
+                <img class="w-12 h-12 rounded-full" src="${profile_pic}" alt="ok just pretend theres an amogus here">
             </div>
         </div>
     </div>
