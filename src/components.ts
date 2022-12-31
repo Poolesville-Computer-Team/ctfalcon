@@ -12,17 +12,19 @@ if (navbar_element != undefined) {
         <div class="flex-none flex space-x-3 left-2 top-6 absolute cursor-pointer" onclick="location.href='/'">
             <img src="${icon}" class="w-12 h-12 rounded-md" alt="opps looks like
             image doesn't exist">
-            <p class="my-auto">CTFalcon</p>
+            <p class="my-auto collapse md:visible">CTFalcon</p>
         </div>
-        <div class="m-auto flex space-x-4">
+
+        <div class="m-auto flex sm:space-x-4 space-x-2">
             <p class="m-auto hover:bg-secondary p-2 rounded-md cursor-pointer" onclick="location.href='/challenges.html'">Challenges</p>
             <p class="m-auto hover:bg-secondary p-2 rounded-md cursor-pointer" onclick="location.href='/leaderboard.html'">Leaderboard</p>
             <p class="m-auto hover:bg-secondary p-2 rounded-md cursor-pointer" onclick="location.href='/team-info.html'">Team</p>
         </div>
-        <div class="flex-none flex right-2 top-6 absolute">
+
+        <div class="flex-none flex right-2 top-6 absolute md:space-x-2 cursor-default">
             <p>2 (trophy icon)</p>
-            <div class="flex">
-                <div class="text-right">
+            <div class="flex space-x-2 flex-none">
+                <div class="text-right hidden md:inline">
                     <p>Polly Placeholder</p>
                     <p class="italic text-sm">@pollytheplayer</p>
                 </div>
