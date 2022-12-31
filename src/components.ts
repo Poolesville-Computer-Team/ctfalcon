@@ -4,6 +4,7 @@ import icon from '/computer-team-icon.png'
 import profile_pic from '/profile-pic.png'// TODO: The actual profile picture of the user should be moved in instead of the placeholder picture
 
 // create the navbar if it is requested 
+// TODO Decide which icon to use for the navbar
 let navbar_element = document.querySelector('#navbar');
 if (navbar_element != undefined) {
     navbar_element.innerHTML = `
