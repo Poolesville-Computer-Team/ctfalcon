@@ -32,10 +32,10 @@
         <!-- Details section -->
         <div class="flex space-x-5">
             <!-- People -->
-            <div class="bg-secondary p-4 rounded-md space-y-3 ">
+            <div class="flex-none bg-secondary p-4 rounded-md space-y-3 w-fit">
                 <div class="flex space-x-2">
                     <img class="rounded-full" src="/profile-pic.png" alt="hugh mogus">
-                    <div class="">
+                    <div class="hidden md:block">
                         <p>Polly Placeholder</p>
                         <p class="italic text-sm">@pollytheplayer</p>
                     </div>
@@ -46,7 +46,7 @@
                 </div>
                 <div class="flex space-x-2">
                     <img class="rounded-full" src="/profile-pic.png" alt="hugh mogus">
-                    <div class="">
+                    <div class="hidden md:block">
                         <p>Polly Placeholder</p>
                         <p class="italic text-sm">@pollytheplayer</p>
                     </div>
@@ -57,7 +57,7 @@
                 </div>
                 <div class="flex space-x-2">
                     <img class="rounded-full" src="/profile-pic.png" alt="hugh mogus">
-                    <div class="">
+                    <div class="hidden md:block">
                         <p>Polly Placeholder</p>
                         <p class="italic text-sm">@pollytheplayer</p>
                     </div>
@@ -68,7 +68,7 @@
                 </div>
                 <div class="flex space-x-2">
                     <img class="rounded-full" src="/profile-pic.png" alt="hugh mogus">
-                    <div class="">
+                    <div class="hidden md:block">
                         <p>Polly Placeholder</p>
                         <p class="italic text-sm">@pollytheplayer</p>
                     </div>
@@ -80,14 +80,18 @@
             </div>
 
             <!-- Problems -->
-            <div class="flex-auto space-y-5 ">
-                <!-- Sort bar; TODO get the overflow stuff working-->
-                <div class="flex bg-secondary px-4 rounded-full font-bold space-x-4 py-2">
-                    <p>Sort By</p>
-                    <div class="space-x-2 flex overflow-x-scroll flex-initial">
+            <div class="flex-auto space-y-5 overflow-x-auto">
+                <!-- Sort bar -->
+                <div class="flex bg-secondary px-4 rounded-full font-bold space-x-4 py-2 h-10">
+                    <p class="flex-none">Sort By</p>
+                    <div class="space-x-2 flex overflow-x-scroll flex-initial no-scrollbar">
                         <div class="text-center rounded-full bg-accent px-2 min-w-fit w-28">Cryptography</div>
                         <div class="text-center rounded-full bg-accent px-2 min-w-fit w-28">Reverse</div>
                         <div class="text-center rounded-full bg-primary px-2 min-w-fit w-28">BinEx</div>
+                        <div class="text-center rounded-full bg-primary px-2 min-w-fit w-28">WebEx</div>
+                        <div class="text-center rounded-full bg-primary px-2 min-w-fit w-28">WebEx</div>
+                        <div class="text-center rounded-full bg-primary px-2 min-w-fit w-28">WebEx</div>
+                        <div class="text-center rounded-full bg-primary px-2 min-w-fit w-28">WebEx</div>
                         <div class="text-center rounded-full bg-primary px-2 min-w-fit w-28">WebEx</div>
                     </div>
                 </div>
