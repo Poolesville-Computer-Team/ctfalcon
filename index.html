@@ -16,21 +16,22 @@
 
     <div class="m-10 space-y-5 flex flex-col">
         <div class="flex">
-            <div class="w-1/2 space-y-5">
+            <div class="sm:w-1/2 space-y-5">
                 <p class="text-7xl font-extrabold">CTFalcons</p>
-                <p>Welcome to Capture the Falcons (CTFalcons) in the world of cybersecurity! In this game, players will
+                <p class="text-justify">Welcome to Capture the Falcons (CTFalcons) in the world of cybersecurity! In
+                    this game, players will
                     be put into teams and tasked with finding and exploiting vulnerabilities in computer systems in
                     order to "capture" the other team's flag. This is a great way to learn and improve your skills in
                     cybersecurity, as well as to have some friendly competition with others. Good luck and stay safe!
                 </p>
-                <div class="bg-accent w-fit px-8 py-2 font-bold rounded-full">JOIN NOW</div>
+                <div class="bg-accent w-fit px-8 py-2 font-bold rounded-full mx-auto sm:mx-0">JOIN NOW</div>
             </div>
-            <div class="flex-1 flex flex-col">
+
+            <div class="flex-1 flex-col hidden sm:flex">
                 <!-- These divs exist as a spacing hack-->
                 <div class="flex-1"></div>
                 <div class="flex">
                     <div class="flex-1"></div>
-                    <!-- TODO play with rounding -->
                     <div class="rounded-3xl border-solid border-4 border-white px-10 py-5 space-y-5 text-center">
 
                         <p>Time Until <b>Spring Round</b></p>
@@ -39,6 +40,15 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <!-- TODO duplicate of element inside spacing hack div -- extract to component-->
+        <div class="rounded-3xl border-solid border-4 border-white px-10 py-5 space-y-5 text-center
+        sm:hidden w-fit mx-auto">
+
+            <p>Time Until <b>Spring Round</b></p>
+            <p class="font-extrabold text-4xl">10:22:10</p>
+
         </div>
 
         <hr class="h-1 bg-text-theme">
