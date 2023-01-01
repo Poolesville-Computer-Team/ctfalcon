@@ -5,7 +5,7 @@ import profile_pic from '/profile-pic.png'// TODO: The actual profile picture of
 
 let navbar_template = document.createElement('template')
 navbar_template.innerHTML = `
-<div class="sticky top-0 flex w-full h-24">
+<div class="sticky top-0 flex w-full h-24 bg-primary">
     <div class="flex-none flex space-x-3 left-2 top-6 absolute cursor-pointer" onclick="location.href='/'">
         <img src="${icon}" class="w-12 h-12 rounded-md" alt="opps looks like
         image doesn't exist">
@@ -19,7 +19,7 @@ navbar_template.innerHTML = `
     </div>
 
     <div class="flex-none flex right-2 top-6 absolute md:space-x-2 cursor-default items-center md:items-start">
-        <p>2 (trophy icon)</p>
+        <p>2 🏆</p>
         <div class="flex space-x-2 flex-none">
             <div class="text-right hidden md:inline">
                 <p>Polly Placeholder</p>
