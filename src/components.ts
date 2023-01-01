@@ -21,7 +21,7 @@ if (navbar_element != undefined) {
             <p class="m-auto hover:bg-secondary p-2 rounded-md cursor-pointer" onclick="location.href='/team-info.html'">Team</p>
         </div>
 
-        <div class="flex-none flex right-2 top-6 absolute md:space-x-2 cursor-default">
+        <div class="flex-none flex right-2 top-6 absolute md:space-x-2 cursor-default items-center md:items-start">
             <p>2 (trophy icon)</p>
             <div class="flex space-x-2 flex-none">
                 <div class="text-right hidden md:inline">
