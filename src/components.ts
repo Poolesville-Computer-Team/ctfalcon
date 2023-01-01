@@ -12,7 +12,7 @@ navbar_template.innerHTML = `
         <p class="my-auto collapse md:visible">CTFalcon</p>
     </div>
 
-    <div class="m-auto flex sm:space-x-4 space-x-2">
+    <div class="m-auto flex md:space-x-8 space-x-2">
         <p class="m-auto hover:bg-secondary p-2 rounded-md cursor-pointer" onclick="location.href='/challenges.html'">Challenges</p>
         <p class="m-auto hover:bg-secondary p-2 rounded-md cursor-pointer" onclick="location.href='/leaderboard.html'">Leaderboard</p>
         <p class="m-auto hover:bg-secondary p-2 rounded-md cursor-pointer" onclick="location.href='/team-info.html'">Team</p>
