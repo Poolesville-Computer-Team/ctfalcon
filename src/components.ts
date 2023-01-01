@@ -3,20 +3,18 @@ import './style.css'
 import icon from '/computer-team-icon.png'
 import profile_pic from '/profile-pic.png'// TODO: The actual profile picture of the user should be moved in instead of the placeholder picture
 
-class ProfileInfo {
-    display_name: string;
-    handle: string;
-    profile_picture_link: string;
-
-    constructor(display_name: string, handle: string, profile_picture: string) {
-        this.display_name = display_name;
-        this.handle = handle;
-        this.profile_picture_link = profile_picture;
-    }
+interface ProfileInfo {
+    display_name: string,
+    handle: string,
+    profile_picture_link: string,
 }
 
 // TODO: Replace with network request
-let profile = new ProfileInfo("Polly Placeholder", "pollytheplayer", profile_pic); 
+let profile: ProfileInfo = {
+    display_name: "Polly Placeholder",
+    handle: "pollytheplayer",
+    profile_picture_link: profile_pic
+};
 
 let profile_element = "" // ecmascript foundation pls if statements as expressions
 if (profile == undefined) {
