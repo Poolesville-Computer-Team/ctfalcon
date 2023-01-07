@@ -14,3 +14,10 @@
     scrollbar-width: none;
     /* Firefox */
 }
+
+td {
+    @apply py-2
+}
+td:first-child {
+    @apply px-2
+}
