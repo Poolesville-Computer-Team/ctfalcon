@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+* {
+    box-sizing: border-box;
+}
 /* Hide scrollbar for Chrome, Safari and Opera */
 .no-scrollbar::-webkit-scrollbar {
     display: none;
@@ -13,4 +15,11 @@
     /* IE and Edge */
     scrollbar-width: none;
     /* Firefox */
+}
+
+td {
+    @apply py-2
+}
+td:first-child {
+    @apply px-2
 }
