@@ -1,7 +1,7 @@
 import React from "react";
 import { NavigationBar } from "./components";
-import { ChallengesPage } from "./routes";
-import { HomePage } from "./routes/HomePage";
+import { HomePage } from "./routes";
+import { ChallengesPage } from "./routes/ChallengesPage";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         ]}
       />
       {/* <HomePage /> */}
-      <ChallengesPage />
+      <HomePage />
     </div>
   );
 }

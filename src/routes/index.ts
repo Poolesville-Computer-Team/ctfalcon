@@ -1,1 +1,1 @@
-export * from "./ChallengesPage";
+export * from "./HomePage";
