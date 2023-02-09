@@ -2,6 +2,7 @@ import React from "react";
 import { NavigationBar } from "./components";
 import { HomePage } from "./routes";
 import { ChallengesPage } from "./routes/ChallengesPage";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
@@ -14,8 +15,12 @@ function App() {
           { title: "About", route: "About" },
         ]}
       />
-      {/* <HomePage /> */}
-      <HomePage />
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<HomePage />} />
+          <Route path="challenges" element={<ChallengesPage />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
