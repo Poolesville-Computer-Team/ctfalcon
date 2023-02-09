@@ -1,4 +1,3 @@
-import React from "react";
 import { NavigationBar } from "./components";
 import { HomePage } from "./routes";
 import { ChallengesPage } from "./routes/ChallengesPage";

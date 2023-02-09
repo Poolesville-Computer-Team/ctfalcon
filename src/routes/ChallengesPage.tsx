@@ -1,4 +1,3 @@
-import React from "react";
 import { ChallengesGrid, ChallengeSortBox } from "../components/challenge-item";
 
 export const ChallengesPage = () => {
