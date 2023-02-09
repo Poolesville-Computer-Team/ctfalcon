@@ -3,6 +3,7 @@ import { NavigationBar } from "./components";
 import { HomePage } from "./routes";
 import { ChallengesPage } from "./routes/ChallengesPage";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { TeamInfo } from "./routes/TeamInfo";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route index element={<HomePage />} />
           <Route path="challenges" element={<ChallengesPage />} />
+          <Route path="teams" element={<TeamInfo />} />
         </Routes>
       </BrowserRouter>
     </div>

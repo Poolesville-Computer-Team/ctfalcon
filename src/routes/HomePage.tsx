@@ -1,5 +1,3 @@
-import React from "react";
-
 export const HomePage = () => {
   return (
     <div className="m-10 space-y-5 flex flex-col">
