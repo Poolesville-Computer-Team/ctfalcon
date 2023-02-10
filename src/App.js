@@ -1,8 +1,9 @@
 import { NavigationBar } from "./components";
-import { HomePage } from "./routes";
-import { ChallengesPage } from "./routes/ChallengesPage";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import { TeamInfo } from "./routes/TeamInfo";
+
+import HomePage from "./routes/HomePage";
+import ChallengesPage from "./routes/ChallengesPage";
+import TeamInfo from "./routes/TeamInfo";
 import Leaderboard from "./routes/Leaderboard";
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
           <Route index element={<HomePage />} />
           <Route path="challenges" element={<ChallengesPage />} />
           <Route path="teams" element={<TeamInfo />} />
-          <Route path="leaderboard" element={<Leaderboard />}/>
+          <Route path="leaderboard" element={<Leaderboard />} />
         </Routes>
       </BrowserRouter>
     </div>

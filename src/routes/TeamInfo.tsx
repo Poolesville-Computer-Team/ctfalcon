@@ -1,4 +1,4 @@
-export const TeamInfo = () => {
+export default () => {
   return (
 
     <div className="mx-10 space-y-5">

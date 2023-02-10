@@ -1,4 +1,4 @@
-export const HomePage = () => {
+export default () => {
   return (
     <div className="m-10 space-y-5 flex flex-col">
       <div className="flex">

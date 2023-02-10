@@ -1,6 +1,6 @@
 import { ChallengesGrid, ChallengeSortBox } from "../components/challenge-item";
 
-export const ChallengesPage = () => {
+export default () => {
   return (
     <div className="mt-4">
       {/* Left Toolbox */}
